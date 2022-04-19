@@ -1,0 +1,65 @@
+.navbar {
+  background-color: #cfd8dc;
+  height: 21%;
+}
+
+.navbar div:last-of-type {
+  margin-top: auto;
+  margin-left: auto;
+}
+
+.navbar-no-margin {
+    background-color: #cfd8dc;
+  }
+
+.species-text {
+  font-style: italic;
+  margin-top: -5px;
+}
+
+
+.availability-text {
+    background-color: lightblue;
+    text-align: center;
+    margin-top: -10px;
+    width: 150px;
+  }
+  
+
+.healthy-status-text {
+  background-color: lightgreen;
+  text-align: center;
+  margin-top: -10px;
+  width: 150px;
+}
+
+.injured-status-text {
+    background-color: rgb(255, 110, 110);
+    text-align: center;
+    margin-top: -10px;
+    width: 150px;
+}
+
+.sick-status-text {
+    background-color: lemonchiffon;
+    text-align: center;
+    margin-top: -10px;
+    width: 150px;
+}
+
+.passed-status-text {
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: -10px;
+    width: 150px;
+}
+
+.admin-text {
+    font-style: italic;
+    margin-top: -15px;
+}
+
+.dropdown {
+    margin-bottom: -5px;
+}

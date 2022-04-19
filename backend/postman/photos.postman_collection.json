@@ -1,0 +1,162 @@
+{
+	"info": {
+		"_postman_id": "4325e245-c7eb-4b97-a1a4-f0f6b2ea719b",
+		"name": "photos2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/app/photos/animal/102",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"reminderId\":\"105\",\r\n    \"status\":\"GOOD\",\r\n    \"dateDue\":\"2021-11-01\",\r\n    \"datePerformed\":\"2021-11-15\",\r\n    \"note\":\"removed splinter2222.\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/photos/animal/102",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"photos",
+						"animal",
+						"102"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/photos/animal/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n        \"id\":102,\r\n        \"photoId\" :1,\r\n        \"dateUploaded\" :\"2021-11-17 9:07PM\",\r\n        \"filepath\": \"src/resources/imag2.png\",\r\n        \"description\":\"a brand new photo\",\r\n        \"userId\":10\r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/photos/animal/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"photos",
+						"animal",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/photos/animal/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n        \"id\":102,\r\n        \"photoId\" :1,\r\n        \"dateUploaded\" :\"2021-11-17 9:07PM\",\r\n        \r\n        \"description\":\"a brand new photo\",\r\n        \"userId\":10\r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/photos/animal/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"photos",
+						"animal",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/photos/animal/999",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n        \"commentId\": \"12\",\r\n        \"authorId\" :\"105\",\r\n        \"timestamp\" :\"2021-11-17 9:07PM\"\r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/photos/animal/999",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"photos",
+						"animal",
+						"999"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/photos/animal/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n        \"commentId\": \"12\",\r\n        \"authorId\" :\"105\",\r\n        \"timestamp\" :\"2021-11-17 9:07PM\"\r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/photos/animal/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"photos",
+						"animal",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

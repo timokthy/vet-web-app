@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "a3f82a19-e9cb-491d-ab22-1b9e9b178594",
+		"name": "Users",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/app/login",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \"id\":0,\r\n    \"firstName\":\"\",\r\n    \"lastName\":\"\",\r\n    \"userType\":\"\",\r\n    \"email\":\"\",\r\n    \"phoneNum\":\"\",\r\n    \"startDate\":\"\",\r\n    \"userStatus\":\"\",\r\n    \"userName\":\"Instructor_1\",\r\n    \"password\":\"pt@123\"\r\n\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/login",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

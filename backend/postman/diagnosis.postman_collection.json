@@ -1,0 +1,379 @@
+{
+	"info": {
+		"_postman_id": "ffa66e66-6d20-4028-bd06-b3cf539e5f5a",
+		"name": "diagnosis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/app/treatment/diagnosis",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"requester\":\"Request 2\",\r\n    \"requestDate\":\"2021-12-15\",\r\n    \"checkoutDate\":\"2021-01-05\",\r\n    \"returnDate\":\"2022-04-30\",\r\n    \"message\":\"Checkout cat. Also need a dog.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/treatment/diagnosis",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"treatment",
+						"diagnosis"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/treatment/diagnosis",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalName\":\"Doggy\",\r\n    \"diagnosis\":\"Dog sickness\",\r\n    \"description\":\"Constant sneezing for a week.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/treatment/diagnosis",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"treatment",
+						"diagnosis"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/treatment/diagnosis",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalName\":\"Kitty\",\r\n    \"diagnosis\":\"Flea bite\",\r\n    \"description\":\"Constant itching.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/treatment/diagnosis",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"treatment",
+						"diagnosis"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/treatment/diagnosis",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalName\":\"Kitty\",\r\n    \"diagnosis\":\"Flea bite\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/treatment/diagnosis",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"treatment",
+						"diagnosis"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/treatment/diagnosis",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalName\":\"Kitty\",\r\n    \"diagnosis\":\"Flea bite\",\r\n    \"description\":\"Constant itching.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/treatment/diagnosis",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"treatment",
+						"diagnosis"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/treatment/diagnosis/4624feed-9bd8-464b-a527-ec3a6470b376",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalName\":\"Kitty\",\r\n    \"diagnosis\":\"Flea bite\",\r\n    \"description\":\"Constant itching.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/treatment/diagnosis/4624feed-9bd8-464b-a527-ec3a6470b376",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"treatment",
+						"diagnosis",
+						"4624feed-9bd8-464b-a527-ec3a6470b376"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/treatment/diagnosis/4624feed-9bd8-464b-a527-ec3a6470b376",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalName\":\"Kitty\",\r\n    \"diagnosis\":\"Healthy now\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/treatment/diagnosis/4624feed-9bd8-464b-a527-ec3a6470b376",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"treatment",
+						"diagnosis",
+						"4624feed-9bd8-464b-a527-ec3a6470b376"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/treatment/diagnosis/4624feed-9bd8-464b-a527-ec3a6470b376",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalName\":\"Kitty\",\r\n    \"diagnosis\":\"Healthy now\",\r\n    \"description\":\"Kitty has recovered from fleas.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/treatment/diagnosis/4624feed-9bd8-464b-a527-ec3a6470b376",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"treatment",
+						"diagnosis",
+						"4624feed-9bd8-464b-a527-ec3a6470b376"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/treatment/diagnosis/4624feed-9bd8-464b-a527-ec3a6470b376",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalName\":\"Kitty\",\r\n    \"diagnosis\":\"Healthy now\",\r\n    \"description\":\"Kitty has recovered from fleas.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/treatment/diagnosis/4624feed-9bd8-464b-a527-ec3a6470b376",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"treatment",
+						"diagnosis",
+						"4624feed-9bd8-464b-a527-ec3a6470b376"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/treatment/diagnosis/4624feed-9b",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalName\":\"Kitty\",\r\n    \"diagnosis\":\"Healthy now\",\r\n    \"description\":\"Kitty has recovered from fleas.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/treatment/diagnosis/4624feed-9b",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"treatment",
+						"diagnosis",
+						"4624feed-9b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/treatment/diagnosis/4624feed-9bd8-464b-a527-ec3a6470b376",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalName\":\"Kitty\",\r\n    \"diagnosis\":\"Healthy now\",\r\n    \"description\":\"Kitty has recovered from fleas.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/treatment/diagnosis/4624feed-9bd8-464b-a527-ec3a6470b376",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"treatment",
+						"diagnosis",
+						"4624feed-9bd8-464b-a527-ec3a6470b376"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/treatment/diagnosis/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalName\":\"Kitty\",\r\n    \"diagnosis\":\"Healthy now\",\r\n    \"description\":\"Kitty has recovered from fleas.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/treatment/diagnosis/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"treatment",
+						"diagnosis",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

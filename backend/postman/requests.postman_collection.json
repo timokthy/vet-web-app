@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "540af53a-759d-405e-b3ee-5010d85a6262",
+		"name": "Requests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/app/request/user/10",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"reminderId\":\"105\",\r\n    \"status\":\"GOOD\",\r\n    \"dateDue\":\"2021-11-01\",\r\n    \"datePerformed\":\"2021-11-15\",\r\n    \"note\":\"removed splinter2222.\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/request/animal/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"request",
+						"animal",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/request/1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"requestID\": 1,\r\n        \"requesterID\": 4,\r\n        \"requestDate\": \"2021-09-21 00:00:00\",\r\n        \"checkoutDate\": \"2021-10-01 00:00:00\",\r\n        \"returnDate\": \"2021-10-03 00:00:00\",\r\n        \"reason\": \"Teaching class 101\",\r\n        \"requestStatus\": \"Cancelled\",\r\n        \"requesterFirstName\": \"Georgina\",\r\n        \"requesterLastName\": \"Hill\",\r\n        \"animalName\": \"Bobby\",\r\n        \"animalSpecies\": \"Dog\",\r\n        \"animalID\": 101\r\n    },\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/request/animal/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"request",
+						"animal",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/request/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"requestID\": 1,\r\n        \"requesterID\": 10,\r\n        \"requestDate\": \"2021-09-21 00:00:00\",\r\n        \"checkoutDate\": \"2021-10-01 00:00:00\",\r\n        \"returnDate\": \"2021-10-03 00:00:00\",\r\n        \"reason\": \"updated from the PUT\",\r\n        \"requestStatus\": \"Cancelled\",\r\n        \"requesterFirstName\": \"Georgina\",\r\n        \"requesterLastName\": \"Hill\",\r\n        \"animalName\": \"Bobby\",\r\n        \"animalSpecies\": \"Dog\",\r\n        \"animalID\": 102\r\n    }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/request/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"request",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

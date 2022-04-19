@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "30560533-9ca0-4b8c-88e0-9a4e514c1bad",
+		"name": "search",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/app/animal/search?name=Bobbie&species=dog",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"reminderId\":\"105\",\r\n    \"status\":\"GOOD\",\r\n    \"dateDue\":\"2021-11-01\",\r\n    \"datePerformed\":\"2021-11-15\",\r\n    \"note\":\"removed splinter2222.\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/app/animal/search?name=Bobbie&species=dog",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"animal",
+						"search"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Bobbie"
+						},
+						{
+							"key": "species",
+							"value": "dog"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/app/animal/search?name=Bobbie",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"reminderId\":\"105\",\r\n    \"status\":\"GOOD\",\r\n    \"dateDue\":\"2021-11-01\",\r\n    \"datePerformed\":\"2021-11-15\",\r\n    \"note\":\"removed splinter2222.\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/app/animal/search?name=Bobbie",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"animal",
+						"search"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Bobbie"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/app/animal/searchAvailable?name=Bobbie",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"reminderId\":\"105\",\r\n    \"status\":\"GOOD\",\r\n    \"dateDue\":\"2021-11-01\",\r\n    \"datePerformed\":\"2021-11-15\",\r\n    \"note\":\"removed splinter2222.\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/app/animal/searchAvailable?name=Bobbie",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"animal",
+						"searchAvailable"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Bobbie"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

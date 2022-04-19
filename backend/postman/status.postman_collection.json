@@ -1,0 +1,464 @@
+{
+	"info": {
+		"_postman_id": "45a53cdd-db7b-48fd-84f6-90c5fbfd498f",
+		"name": "status",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/app/status/animal/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \t\r\n\t\t\"status\":\"GOOD\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/status/animal/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"status",
+						"animal",
+						""
+					]
+				},
+				"description": "GET all STATUS objects"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/status/animal/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \t\r\n\t\t\"status\":\"GOOD\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/status/animal/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"status",
+						"animal",
+						""
+					]
+				},
+				"description": "POST a new Status Object"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/status/animal/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \t\r\n\t\t\"status\":\"GOOD\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/status/animal/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"status",
+						"animal",
+						""
+					]
+				},
+				"description": "POST a new Status Object"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/status/animal/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \t\r\n\t\t\"status\":\"GOOD\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/status/animal/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"status",
+						"animal",
+						""
+					]
+				},
+				"description": "GET all status objects - now there are 2 objects\nselect one UUID for next request"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/status/animal/e104454b-a4e1-4d3d-9516-b431bd1d0ec8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \t\r\n\t\t\"status\":\"GOOD\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/status/animal/e104454b-a4e1-4d3d-9516-b431bd1d0ec8",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"status",
+						"animal",
+						"e104454b-a4e1-4d3d-9516-b431bd1d0ec8"
+					]
+				},
+				"description": "GET the status object for one particular animal"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/status/animal/e104454b-a4e1-4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \t\r\n\t\t\"status\":\"GOOD\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/status/animal/e104454b-a4e1-4",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"status",
+						"animal",
+						"e104454b-a4e1-4"
+					]
+				},
+				"description": "Get status object -invalid id\ncustom exception response"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/status/animal/e104454b-a4e1-4d3d-9516-b431bd1d0ec8",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \t\r\n\t\t\"status\":\"bad\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/status/animal/e104454b-a4e1-4d3d-9516-b431bd1d0ec8",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"status",
+						"animal",
+						"e104454b-a4e1-4d3d-9516-b431bd1d0ec8"
+					]
+				},
+				"description": "PUT - update the status data member for specific Status object for specific animal"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/status/animal/e104454b-a4e1-4d3d-9516-b431bd1d0ec8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \t\r\n\t\t\"status\":\"bad\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/status/animal/e104454b-a4e1-4d3d-9516-b431bd1d0ec8",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"status",
+						"animal",
+						"e104454b-a4e1-4d3d-9516-b431bd1d0ec8"
+					]
+				},
+				"description": "GET - check that the status data member was updated"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/status/animal/e104454b-a4e1-4d3d-9516-b431bd1d0ec8",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \t\r\n\t\t\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/status/animal/e104454b-a4e1-4d3d-9516-b431bd1d0ec8",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"status",
+						"animal",
+						"e104454b-a4e1-4d3d-9516-b431bd1d0ec8"
+					]
+				},
+				"description": "PUT - invalid request body, missing data members\ncustom exception response"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/status/animal/e104454b-a4e1-4d3d-95",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \t\r\n\t\t\"status\":\"bad\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/status/animal/e104454b-a4e1-4d3d-95",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"status",
+						"animal",
+						"e104454b-a4e1-4d3d-95"
+					]
+				},
+				"description": "PUT - invalid animal UUID\ncustom exception response"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/status/animal/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \t\r\n\t\t\"status\":\"bad\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/status/animal/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"status",
+						"animal",
+						""
+					]
+				},
+				"description": "GET - all animal Status objects\nSelect one UUID from here for next request to delete object"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/status/animal/e104454b-a4e1-4d3d-9516-b43",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \t\r\n\t\t\"status\":\"bad\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/status/animal/e104454b-a4e1-4d3d-9516-b43",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"status",
+						"animal",
+						"e104454b-a4e1-4d3d-9516-b43"
+					]
+				},
+				"description": "DELETE - invalid UUID\ncustom exception response"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/status/animal/e104454b-a4e1-4d3d-9516-b431bd1d0ec8",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \t\r\n\t\t\"status\":\"bad\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/status/animal/e104454b-a4e1-4d3d-9516-b431bd1d0ec8",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"status",
+						"animal",
+						"e104454b-a4e1-4d3d-9516-b431bd1d0ec8"
+					]
+				},
+				"description": "DELETE - delete one specific status object for an animal"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/status/animal/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \t\r\n\t\t\"status\":\"bad\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/status/animal/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"status",
+						"animal",
+						""
+					]
+				},
+				"description": "GET - all status objects\nConfirms that one status object was removed from List"
+			},
+			"response": []
+		}
+	]
+}

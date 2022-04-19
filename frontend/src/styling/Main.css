@@ -1,0 +1,15 @@
+.sidebar {
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 1;
+}
+
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }

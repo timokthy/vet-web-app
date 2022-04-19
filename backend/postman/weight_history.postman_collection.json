@@ -1,0 +1,209 @@
+{
+	"info": {
+		"_postman_id": "5dbb839f-33ba-4e5d-a182-f5887a78aae3",
+		"name": "weight_history",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/app/animal/weight-history",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/app/animal/weight-history",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"animal",
+						"weight-history"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/animal/weight-history",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"4871e178-515d-438d-b660-7ebf6ba043ce\",\r\n    \"date\": \"2021-11-15\",\r\n    \"weight\": 20.4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/animal/weight-history",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"animal",
+						"weight-history"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/animal/weight-history",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/app/animal/weight-history",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"animal",
+						"weight-history"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/animal/weight-history/4871e178-515d-438d-b660-7ebf6ba043ce",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/app/animal/weight-history/4871e178-515d-438d-b660-7ebf6ba043ce",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"animal",
+						"weight-history",
+						"4871e178-515d-438d-b660-7ebf6ba043ce"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/animal/weight-history",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/app/animal/weight-history",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"animal",
+						"weight-history"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/animal/weight-history",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"715b04cb-4287-4a72-92f6-3d37f66a54eb\",\r\n    \"date\": \"2021-11-17\",\r\n    \"weight\": 30.4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/animal/weight-history",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"animal",
+						"weight-history"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/animal/weight-history",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/app/animal/weight-history",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"animal",
+						"weight-history"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/animal/weight-history/4871e178-515d-438d-b660-7ebf6ba043ce",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/app/animal/weight-history/4871e178-515d-438d-b660-7ebf6ba043ce",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"animal",
+						"weight-history",
+						"4871e178-515d-438d-b660-7ebf6ba043ce"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/animal/weight-history",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/app/animal/weight-history",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"animal",
+						"weight-history"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

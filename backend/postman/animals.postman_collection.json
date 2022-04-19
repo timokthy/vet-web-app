@@ -1,0 +1,250 @@
+{
+	"info": {
+		"_postman_id": "7761c3d1-4f81-40fc-93b3-182d9d671dfe",
+		"name": "animals2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/app/animal/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"reminderId\":\"105\",\r\n    \"status\":\"GOOD\",\r\n    \"dateDue\":\"2021-11-01\",\r\n    \"datePerformed\":\"2021-11-15\",\r\n    \"note\":\"removed splinter2222.\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/animal/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"animal",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/animal/3000",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"reminderId\":\"105\",\r\n    \"status\":\"GOOD\",\r\n    \"dateDue\":\"2021-11-01\",\r\n    \"datePerformed\":\"2021-11-15\",\r\n    \"note\":\"removed splinter2222.\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/animal/3000",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"animal",
+						"3000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/animal/9999999999",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"reminderId\":\"105\",\r\n    \"status\":\"GOOD\",\r\n    \"dateDue\":\"2021-11-01\",\r\n    \"datePerformed\":\"2021-11-15\",\r\n    \"note\":\"removed splinter2222.\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/animal/9999999999",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"animal",
+						"9999999999"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/animal/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 3000,\r\n        \"name\": \"Ada\",\r\n        \"species\": \"Dog\",\r\n        \"type\": \"Beagle\",\r\n        \"sex\": \"M\",\r\n        \"weight\": 17.1,\r\n        \"tattoo\": \"234234\",\r\n        \"cityTattoo\": \"HOC London\",\r\n        \"dob\": \"2018-08-15 00:00:00\",\r\n        \"rfid\": \"197839178371.0\",\r\n        \"microchip\": \"176387613813.0\",\r\n        \"status\": \"Available\",\r\n        \"color\": \"Black and white\",\r\n        \"moreInfo\": \"nan\",\r\n        \"nameLength\": 3,\r\n        \"searchKey_Name\": \"a2-b0-c0-d1-e0-f0-g0-h0-i0-j0-k0-l0-m0-n0-o0-p0-q0-r0-s0-t0-u0-v0-w0-x0-y0-z0\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/animal/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"animal",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/animal/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 3000,\r\n        \"name\": \"Ada\",\r\n        \r\n        \r\n        \"tattoo\": \"234234\",\r\n        \"cityTattoo\": \"HOC London\",\r\n        \"dob\": \"2018-08-15 00:00:00\",\r\n        \"rfid\": \"197839178371.0\",\r\n        \"microchip\": \"176387613813.0\",\r\n        \"status\": \"Available\",\r\n        \"color\": \"Black and white\",\r\n        \"moreInfo\": \"nan\",\r\n        \"nameLength\": 3,\r\n        \"searchKey_Name\": \"a2-b0-c0-d1-e0-f0-g0-h0-i0-j0-k0-l0-m0-n0-o0-p0-q0-r0-s0-t0-u0-v0-w0-x0-y0-z0\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/animal/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"animal",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/animal/3002",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 3002,\r\n        \"name\": \"Ada\",\r\n        \"species\": \"DRAGON\",\r\n        \"type\": \"Beagle\",\r\n        \"sex\": \"M\",\r\n        \"weight\": 17.1,\r\n        \"tattoo\": \"234234\",\r\n        \"cityTattoo\": \"HOC London\",\r\n        \"dob\": \"2018-08-15 00:00:00\",\r\n        \"rfid\": \"197839178371.0\",\r\n        \"microchip\": \"176387613813.0\",\r\n        \"status\": \"Available\",\r\n        \"color\": \"Black and white\",\r\n        \"moreInfo\": \"nan\",\r\n        \"nameLength\": 3,\r\n        \"searchKey_Name\": \"a2-b0-c0-d1-e0-f0-g0-h0-i0-j0-k0-l0-m0-n0-o0-p0-q0-r0-s0-t0-u0-v0-w0-x0-y0-z0\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/animal/3002",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"animal",
+						"3002"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/animal/3002",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 3002,\r\n        \"name\": \"Ada\",\r\n        \r\n        \r\n        \"cityTattoo\": \"HOC London\",\r\n        \"dob\": \"2018-08-15 00:00:00\",\r\n        \"rfid\": \"197839178371.0\",\r\n        \"microchip\": \"176387613813.0\",\r\n        \"status\": \"Available\",\r\n        \"color\": \"Black and white\",\r\n        \"moreInfo\": \"nan\",\r\n        \"nameLength\": 3,\r\n        \"searchKey_Name\": \"a2-b0-c0-d1-e0-f0-g0-h0-i0-j0-k0-l0-m0-n0-o0-p0-q0-r0-s0-t0-u0-v0-w0-x0-y0-z0\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/animal/3002",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"animal",
+						"3002"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/animal/99991",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 99991,\r\n        \"name\": \"Ada\",\r\n        \"species\": \"DRAGON\",\r\n        \"type\": \"Beagle\",\r\n        \"sex\": \"M\",\r\n        \"weight\": 17.1,\r\n        \"tattoo\": \"234234\",\r\n        \"cityTattoo\": \"HOC London\",\r\n        \"dob\": \"2018-08-15 00:00:00\",\r\n        \"rfid\": \"197839178371.0\",\r\n        \"microchip\": \"176387613813.0\",\r\n        \"status\": \"Available\",\r\n        \"color\": \"Black and white\",\r\n        \"moreInfo\": \"nan\",\r\n        \"nameLength\": 3,\r\n        \"searchKey_Name\": \"a2-b0-c0-d1-e0-f0-g0-h0-i0-j0-k0-l0-m0-n0-o0-p0-q0-r0-s0-t0-u0-v0-w0-x0-y0-z0\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/animal/99991",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"animal",
+						"99991"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

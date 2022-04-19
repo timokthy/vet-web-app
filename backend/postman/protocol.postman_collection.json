@@ -1,0 +1,412 @@
+{
+	"info": {
+		"_postman_id": "7067c04d-2dbd-4f29-bc66-8de275efbcc7",
+		"name": "protocol",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/app/treatment/protocol",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalName\":\"Kitty\",\r\n    \"diagnosis\":\"Healthy now\",\r\n    \"description\":\"Kitty has recovered from fleas.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/treatment/protocol",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"treatment",
+						"protocol"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/treatment/protocol",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalName\":\"Moocow\",\r\n    \"diagnosis\":\"Wart\",\r\n    \"prescription\":\"Wart cream\",\r\n    \"protocol\":\"Apply cream to wart daily\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/treatment/protocol",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"treatment",
+						"protocol"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/treatment/protocol",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalName\":\"Moocow\",\r\n    \"diagnosis\":\"Flu\",\r\n    \"prescription\":\"Cough medicine\",\r\n    \"protocol\":\"Drink 10mL twice daily, 8 hours apart. \"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/treatment/protocol",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"treatment",
+						"protocol"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/treatment/protocol",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalName\":\"Moocow\",\r\n    \"diagnosis\":\"Flu\",\r\n    \"prescription\":\"Cough medicine\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/treatment/protocol",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"treatment",
+						"protocol"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/treatment/protocol",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalName\":\"Moocow\",\r\n    \"diagnosis\":\"Flu\",\r\n    \"prescription\":\"Cough medicine\",\r\n    \"protocol\":\"Drink 10mL twice daily, 8 hours apart. \"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/treatment/protocol",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"treatment",
+						"protocol"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/treatment/protocol/f2dbf1a9-8cab-4e89-93cf-8a49be56814b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalName\":\"Moocow\",\r\n    \"diagnosis\":\"Flu\",\r\n    \"prescription\":\"Cough medicine\",\r\n    \"protocol\":\"Drink 10mL twice daily, 8 hours apart. \"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/treatment/protocol/f2dbf1a9-8cab-4e89-93cf-8a49be56814b",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"treatment",
+						"protocol",
+						"f2dbf1a9-8cab-4e89-93cf-8a49be56814b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/treatment/protocol/f2dbf1a9-8c",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalName\": \"Moocow\",\r\n    \"diagnosis\": \"Wart\",\r\n    \"prescription\": \"Intense wart cream\",\r\n    \"protocol\": \"Apply cream three times daily, 4 hours apart.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/treatment/protocol/f2dbf1a9-8c",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"treatment",
+						"protocol",
+						"f2dbf1a9-8c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/treatment/protocol/f2dbf1a9-8cab-4e89-93cf-8a49be56814b",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalName\": \"Moocow\",\r\n    \"diagnosis\": \"Wart\",\r\n    \"prescription\": \"Intense wart cream\",\r\n    \"protocol\": \"Apply cream three times daily, 4 hours apart.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/treatment/protocol/f2dbf1a9-8cab-4e89-93cf-8a49be56814b",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"treatment",
+						"protocol",
+						"f2dbf1a9-8cab-4e89-93cf-8a49be56814b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/treatment/protocol/f2dbf1a9-8cab-4e89-93cf-8a49be56814b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalName\": \"Moocow\",\r\n    \"diagnosis\": \"Wart\",\r\n    \"prescription\": \"Intense wart cream\",\r\n    \"protocol\": \"Apply cream three times daily, 4 hours apart.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/treatment/protocol/f2dbf1a9-8cab-4e89-93cf-8a49be56814b",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"treatment",
+						"protocol",
+						"f2dbf1a9-8cab-4e89-93cf-8a49be56814b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/treatment/protocol/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalName\": \"Moocow\",\r\n    \"diagnosis\": \"Wart\",\r\n    \"prescription\": \"Intense wart cream\",\r\n    \"protocol\": \"Apply cream three times daily, 4 hours apart.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/treatment/protocol/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"treatment",
+						"protocol",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/treatment/protocol/60cbd906-a492-40",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalName\": \"Moocow\",\r\n    \"diagnosis\": \"Wart\",\r\n    \"prescription\": \"Intense wart cream\",\r\n    \"protocol\": \"Apply cream three times daily, 4 hours apart.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/treatment/protocol/60cbd906-a492-40",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"treatment",
+						"protocol",
+						"60cbd906-a492-40"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/treatment/protocol/60cbd906-a492-406b-b91f-e14ebd161b2a",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalName\": \"Moocow\",\r\n    \"diagnosis\": \"Wart\",\r\n    \"prescription\": \"Intense wart cream\",\r\n    \"protocol\": \"Apply cream three times daily, 4 hours apart.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/treatment/protocol/60cbd906-a492-406b-b91f-e14ebd161b2a",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"treatment",
+						"protocol",
+						"60cbd906-a492-406b-b91f-e14ebd161b2a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/app/treatment/protocol/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalName\": \"Moocow\",\r\n    \"diagnosis\": \"Wart\",\r\n    \"prescription\": \"Intense wart cream\",\r\n    \"protocol\": \"Apply cream three times daily, 4 hours apart.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/app/treatment/protocol/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"app",
+						"treatment",
+						"protocol",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
